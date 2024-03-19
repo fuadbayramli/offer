@@ -1,0 +1,115 @@
+#myOffers,
+#myResults,
+#questions {
+  .head .head-name::before {
+    top: 42% !important;
+  }
+}
+#offers,
+#results,
+#myOffers,
+#myResults {
+  @media (max-width: 992px) {
+    .group-select {
+      label {
+        margin: 15px 3px !important;
+      }
+      select {
+        font-size: 10px;
+        padding: 3px;
+      }
+    }
+  }
+  .previous-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .circle {
+      width: 15px;
+      height: 15px;
+      background-color: black;
+      border-radius: 50%;
+      margin: 3px;
+    }
+  }
+
+  .group-select {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    label {
+      margin: 5px 25px 5px 40px;
+    }
+  }
+  select {
+    color: #333333;
+    font-family: $fontFamilyRounded;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.06px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-shadow: 5px 5px 10px -10px rgba(0, 0, 0, 0.75);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  label {
+    color: #000000;
+    font-family: $fontFamilyRounded;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.12px;
+  }
+  
+  .card-body {
+    span {
+      &.date {
+        color: #cccccc;
+        font-family: $fontFamilyRounded;
+        font-size: 12px;
+        font-weight: 400;
+      }
+    }
+    a {
+      text-decoration: none;
+      .card-title {
+        color: #1f1f1f;
+        font-family: $fontFamilyRounded;
+        font-size: 20px;
+        font-weight: 400;
+      }
+      
+    }
+    .card-text, .like {
+      color: #666666;
+      font-family: $fontFamilyRounded;
+      font-size: 14px;
+      font-weight: 400;
+    }
+    .buttons {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+
+      button {
+        padding: 5px 10px;
+        border-radius: 10px;
+        outline: none;
+        &:first-child {
+          background-color: #297fb8;
+          border: none;
+          color: white;
+        }
+        &:last-child {
+          background-color: #f2f2f2;
+          border: none;
+          color: white;
+          &.active {
+            background-color: #1bbc9b;
+          }
+        }
+      }
+    }
+  }
+}

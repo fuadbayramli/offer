@@ -1,0 +1,1753 @@
+:focus {
+    outline: 0;
+}
+
+#main iframe {
+  width: 77%;
+  margin: 25px;
+  height: 128%;
+  border-radius: 20px;
+  border: none;
+}
+
+#main iframe video {
+  margin: 0;
+}
+
+#main .head:first-child {
+    margin-left: 0px;
+}
+
+#main a.offer {
+    text-decoration: none;
+    padding: 15px 25px;
+}
+
+#main a.offer img {
+    width: 22px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+#main .head-main h4 {
+    font-family: ". SF Compact Rounded";
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+#main .all {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#main .all span {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+#main .all span i {
+    margin-left: 5px;
+}
+
+#aboutUs img {
+    width: 100%;
+}
+
+#aboutUs span {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.75px;
+}
+
+#aboutUs span .fa-download {
+    color: rgba(20, 142, 117, 0.75);
+}
+
+#aboutUs .info {
+    padding: 50px 0px;
+}
+
+#aboutUs .info h5 {
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -1.35px;
+    margin-bottom: 20px;
+}
+
+#aboutUs .info .cards {
+    margin-bottom: 95px;
+}
+
+#aboutUs .info .cards p {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    letter-spacing: 1.75px;
+}
+
+@media (min-width: 992px) {
+    #aboutUs .info .left {
+        width: 50%;
+        margin-right: 125px;
+    }
+
+    #aboutUs .info .right {
+        width: 50%;
+        margin-left: 125px;
+    }
+}
+
+#aboutUs .info .left {
+    float: left;
+    width: 50%;
+}
+
+#aboutUs .info .right {
+    float: right;
+    width: 50%;
+}
+
+@media (max-width: 992px) {
+    #aboutUs h5 {
+        font-size: 30px !important;
+    }
+}
+
+#questions span {
+    color: #494949;
+    font-family: ". SF Compact Rounded";
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    padding: 3px 0 3px 35px;
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#questions .question {
+    padding: 10px 0px;
+    border: 1px solid rgba(10, 100, 82, 0.4);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+#questions .question i {
+    transition: 0.3s;
+    transform: rotate(-90deg);
+}
+
+#questions .question i.active {
+    transform: rotate(0deg);
+}
+
+#questions .question:hover {
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+#questions .question p {
+    color: #494949;
+    font-family: ". SF Compact Rounded";
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 0.4px;
+    padding: 3px 10px 3px 35px;
+    display: none;
+}
+
+#myOffers .head .head-name::before,
+#myResults .head .head-name::before,
+#questions .head .head-name::before {
+    top: 42% !important;
+}
+
+@media (max-width: 992px) {
+    #offers .group-select label,
+    #results .group-select label,
+    #myOffers .group-select label,
+    #myResults .group-select label {
+        margin: 15px 3px !important;
+    }
+
+    #offers .group-select select,
+    #results .group-select select,
+    #myOffers .group-select select,
+    #myResults .group-select select {
+        font-size: 10px;
+        padding: 3px;
+    }
+}
+
+#offers .previous-next,
+#results .previous-next,
+#myOffers .previous-next,
+#myResults .previous-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#offers .previous-next .circle,
+#results .previous-next .circle,
+#myOffers .previous-next .circle,
+#myResults .previous-next .circle {
+    width: 15px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+#offers .group-select,
+#results .group-select,
+#myOffers .group-select,
+#myResults .group-select {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#offers .group-select label,
+#results .group-select label,
+#myOffers .group-select label,
+#myResults .group-select label {
+    margin: 5px 25px 5px 40px;
+}
+
+#offers select,
+#results select,
+#myOffers select,
+#myResults select {
+    color: #333333;
+    font-family: ". SF Compact Rounded";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.06px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    box-shadow: 5px 5px 10px -10px rgba(0, 0, 0, 0.75);
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+#offers label,
+#results label,
+#myOffers label,
+#myResults label {
+    color: #000000;
+    font-family: ". SF Compact Rounded";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.12px;
+}
+
+#offers .card-body span.date,
+#results .card-body span.date,
+#myOffers .card-body span.date,
+#myResults .card-body span.date {
+    color: #cccccc;
+    font-family: ". SF Compact Rounded";
+    font-size: 12px;
+    font-weight: 400;
+}
+
+#offers .card-body a,
+#results .card-body a,
+#myOffers .card-body a,
+#myResults .card-body a {
+    text-decoration: none;
+}
+
+#offers .card-body a .card-title,
+#results .card-body a .card-title,
+#myOffers .card-body a .card-title,
+#myResults .card-body a .card-title {
+    color: #1f1f1f;
+    font-family: ". SF Compact Rounded";
+    font-size: 20px;
+    font-weight: 400;
+}
+
+#offers .card-body .card-text,
+#offers .card-body .like,
+#results .card-body .card-text,
+#results .card-body .like,
+#myOffers .card-body .card-text,
+#myOffers .card-body .like,
+#myResults .card-body .card-text,
+#myResults .card-body .like {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#offers .card-body .buttons,
+#results .card-body .buttons,
+#myOffers .card-body .buttons,
+#myResults .card-body .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#offers .card-body .buttons button,
+#results .card-body .buttons button,
+#myOffers .card-body .buttons button,
+#myResults .card-body .buttons button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+#offers .card-body .buttons button:first-child,
+#results .card-body .buttons button:first-child,
+#myOffers .card-body .buttons button:first-child,
+#myResults .card-body .buttons button:first-child {
+    background-color: #297fb8;
+    border: none;
+    color: white;
+}
+
+#offers .card-body .buttons button:last-child,
+#results .card-body .buttons button:last-child,
+#myOffers .card-body .buttons button:last-child,
+#myResults .card-body .buttons button:last-child {
+    background-color: #f2f2f2;
+    border: none;
+    color: white;
+}
+
+#offers .card-body .buttons button:last-child.active,
+#results .card-body .buttons button:last-child.active,
+#myOffers .card-body .buttons button:last-child.active,
+#myResults .card-body .buttons button:last-child.active {
+    background-color: #1bbc9b;
+}
+
+#cabinet {
+    background-color: #f6f6f6;
+}
+
+#cabinet ::-webkit-input-placeholder {
+    color: #d9d9d9;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+#cabinet ::-moz-placeholder {
+    color: #d9d9d9;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+#cabinet :-ms-input-placeholder {
+    color: #d9d9d9;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+#cabinet ::-ms-input-placeholder {
+    color: #d9d9d9;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+#cabinet ::placeholder {
+    color: #d9d9d9;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+#cabinet label {
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.13px;
+}
+
+#cabinet input {
+    padding: 20x;
+    height: calc(2.1em + 0.75rem + 2px);
+    border: none;
+}
+
+#cabinet span {
+    color: #333333;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#cabinet .button {
+    display: flex;
+    margin-top: 35px;
+}
+
+#cabinet .button button {
+    width: 50%;
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-family: ". SF Compact Rounded";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    margin-left: 10px;
+}
+
+#cabinet .button button:first-child {
+    background-color: #297fb8;
+    color: #ffffff;
+}
+
+#cabinet .button button:last-child {
+    background-color: #f6f6f6;
+    border: 1px solid #297fb8;
+}
+
+.cab,
+.off {
+    background-color: #eaeaea !important;
+}
+
+@media (max-width: 992px) {
+    #offer .grid-container {
+        grid-gap: 5px !important;
+        padding-right: 0px !important;
+        width: 30% !important;
+        float: right !important;
+        margin-left: 0px !important;
+    }
+
+    #offer h4.name {
+        font-size: 30px;
+    }
+}
+
+#offer .redak {
+    color: #606060;
+    font-family: ". SF Compact Rounded";
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 45px;
+}
+
+#offer .redak i {
+    color: #B3B2B2;
+    margin-left: 25px;
+}
+
+#offer .sender {
+    color: #606060;
+    font-family: ". SF Compact Rounded";
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 75px;
+    margin-bottom: 15px;
+}
+
+#offer span.date {
+    color: #297fb8;
+    font-family: ". SF Compact Rounded";
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#offer span.thumbs {
+    padding: 10px 20px;
+    background-color: #1bbc9b;
+    color: white;
+    border-radius: 8px;
+}
+
+#offer span i {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+#offer span .fa-share-alt {
+    color: #1bbc9b;
+}
+
+#offer img {
+    width: 100%;
+}
+
+#offer .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+    padding-right: 20px;
+    width: 25%;
+    float: right;
+    margin-left: 60px;
+}
+
+#offer .grid-container > div {
+    text-align: center;
+    padding: 5px 0;
+}
+
+#offer .item1 {
+    grid-column: 1/4;
+    height: 50% !important;
+}
+
+#offer p {
+    font-family: ". SF Compact Rounded";
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#makeAnOffer {
+    background-color: #f6f6f6;
+}
+
+#makeAnOffer input[type=checkbox]:checked,
+#makeAnOffer input[type=checkbox]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+#makeAnOffer input[type=checkbox]:checked + label,
+#makeAnOffer input[type=checkbox]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#makeAnOffer input[type=checkbox]:checked + label:before,
+#makeAnOffer input[type=checkbox]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #909090;
+    background-color: #ffffff;
+}
+
+#makeAnOffer input[type=checkbox]:checked + label:before,
+#makeAnOffer input[type=checkbox]:not(:checked) + label:before {
+    border-radius: 2px;
+}
+
+#makeAnOffer input[type=checkbox]:checked + label:after,
+#makeAnOffer input[type=checkbox]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+#makeAnOffer input[type=checkbox]:checked + label:after,
+#makeAnOffer input[type=checkbox]:not(:checked) + label:after {
+    left: 2px;
+    top: 2px;
+    width: 15px;
+    height: 8px;
+    border-radius: 1px;
+    border-left: 3px solid #909090;
+    border-bottom: 3px solid #909090;
+    transform: rotate(-45deg);
+}
+
+#makeAnOffer input[type=checkbox]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+#makeAnOffer input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#makeAnOffer select {
+    display: block;
+    width: 100%;
+    height: calc(2.1em + 0.75rem + 2px);
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.18px;
+}
+
+#makeAnOffer select option {
+    font-size: 18px;
+    font-family: ". SF Compact Rounded";
+    font-weight: 400;
+    letter-spacing: -0.18px;
+    color: #2b2b2b;
+}
+
+#makeAnOffer input[type=text],
+#makeAnOffer textarea,
+#makeAnOffer select {
+    height: calc(2.1em + 0.75rem + 2px);
+    border: none;
+}
+
+#makeAnOffer ::-webkit-input-placeholder {
+    color: #cccccc;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+}
+
+#makeAnOffer ::-moz-placeholder {
+    color: #cccccc;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+}
+
+#makeAnOffer :-ms-input-placeholder {
+    color: #cccccc;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+}
+
+#makeAnOffer ::-ms-input-placeholder {
+    color: #cccccc;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+}
+
+#makeAnOffer ::placeholder {
+    color: #cccccc;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.18px;
+}
+
+#makeAnOffer input,
+#makeAnOffer select {
+    padding: 8px 10px;
+}
+
+#makeAnOffer .check {
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#makeAnOffer .small {
+    color: #333333;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#makeAnOffer .label {
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+
+#makeAnOffer .button-offer {
+    display: flex;
+}
+
+#makeAnOffer .button-offer button {
+    border: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 8px;
+    font-family: ". SF Compact Rounded";
+    font-size: 22px;
+    font-weight: 400;
+}
+
+#makeAnOffer .button-offer button:last-child {
+    color: #ffffff;
+    background-color: #297fb8;
+    width: 50%;
+}
+
+#makeAnOffer .form-group.text {
+    height: 94%;
+    margin: 0;
+}
+
+#makeAnOffer label.file {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 35px;
+    text-align: center;
+    margin: 0;
+}
+
+#makeAnOffer label.file img {
+    height: 125px;
+}
+
+#makeAnOffer .form-group.file {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+#makeAnOffer .inputfile {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#makeAnOffer .file-return {
+    margin: 0;
+    border-radius: 6px;
+    border: 1px solid #becad6;
+    background-color: #ffffff;
+    padding: 5px;
+    margin-right: 5px;
+    width: 70%;
+}
+
+#makeAnOffer textarea {
+    height: 91%;
+}
+
+@media (max-width: 992px) {
+    #makeAnOffer .button-offer button {
+        width: 100% !important;
+        margin-top: 70px;
+    }
+
+    #makeAnOffer textarea {
+        height: 60%;
+    }
+}
+
+@font-face {
+    font-family: ". SF Compact Text";
+    src: url(/fonts/SFCompactText.otf?2a8c6bcbea2e599b3157648911a7f2b1);
+}
+
+@font-face {
+    font-family: ".. SF Compact Rounded - Regular";
+    src: url(/fonts/SFCompactRoundedRegular.ttf?08f9ed5260f2f87be1abdafc7942dcd2);
+}
+
+@font-face {
+    font-family: ". SF Compact Rounded - Regular";
+    src: url(/fonts/SFCompactRoundedRegular.ttf?08f9ed5260f2f87be1abdafc7942dcd2);
+}
+
+@font-face {
+    font-family: ". SF Compact Rounded";
+    src: url(/fonts/SFCompactRoundedLight.ttf?556ac2391be9a14d21edd323d34d9aa7);
+}
+
+@font-face {
+    font-family: ".. SF Compact Rounded";
+    src: url(/fonts/SFCompactRoundedLight.ttf?556ac2391be9a14d21edd323d34d9aa7);
+}
+
+#modal-login-yes img,
+#modal-singUp-yes img,
+#modal-login-no img,
+
+#modal-forgot-password-success img,
+#modal-profile-update img,
+#modal-password-reset img,
+#modal-password-change img,
+#modal-user-registration img,
+
+#modal-offer-yes img {
+    width: 60% !important;
+    height: 60% !important;
+}
+
+#modal-login-yes .modal-body,
+#modal-singUp-yes .modal-body,
+#modal-login-no .modal-body,
+
+#modal-forgot-password-success .modal-body,
+#modal-profile-update .modal-body,
+#modal-password-reset .modal-body,
+#modal-password-change .modal-body,
+#modal-user-registration .modal-body,
+
+#modal-offer-yes .modal-body {
+    text-align: center;
+}
+
+#modal-login-yes .modal-body .modal-title,
+#modal-singUp-yes .modal-body .modal-title,
+#modal-login-no .modal-body .modal-title,
+
+#modal-forgot-password-success .modal-body .modal-title,
+#modal-profile-update .modal-body .modal-title,
+#modal-password-reset .modal-body .modal-title,
+#modal-password-change .modal-body .modal-title,
+#modal-user-registration .modal-body .modal-title,
+
+#modal-offer-yes .modal-body .modal-title {
+    font-size: 64px;
+}
+
+#modal-login-yes .m-header,
+#modal-singUp-yes .m-header,
+#modal-login-no .m-header,
+
+#modal-forgot-password-success .m-header,
+#modal-profile-update .m-header,
+#modal-password-reset .m-header,
+#modal-password-change .m-header,
+#modal-user-registration .m-header,
+
+#modal-offer-yes .m-header {
+    margin: 0px 60px 0px 60px;
+}
+
+#modal-sms span {
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+#modal-sms .wrapper {
+    display: flex;
+    margin-top: 30px;
+}
+
+#modal-sms .wrapper input.sms-num-field {
+    width: 20%;
+    padding: 30px 15px;
+}
+
+#modal-sms .wrapper input.sms-num-field:not(:last-child) {
+    margin-right: 25px;
+}
+
+#modal-sms button:first-child {
+    background-color: #297fb8;
+    color: #ffffff;
+}
+
+#modal-password-new button:first-child {
+    background-color: #297fb8;
+    color: #ffffff;
+}
+
+button,
+button.hamburger {
+    outline: none;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a.butt {
+    background-color: #297fb8;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 10px;
+    font-family: ". SF Compact Rounded";
+}
+
+.modal {
+    background-color: rgba(242, 242, 242, 0.8);
+    overflow-y: hidden;
+}
+
+@media (min-width: 1024px) {
+    .modal-dialog {
+        margin-top: 4% !important;
+        margin-bottom: 4% !important;
+    }
+}
+
+.modal-content {
+    border-radius: 30px;
+    border: none;
+}
+
+.modal-content form {
+    margin-top: 60px;
+}
+
+.modal-content .close {
+    position: relative;
+    bottom: 15px;
+    right: -45px;
+}
+
+.modal-content .close img {
+    height: 40px;
+    width: 40px;
+}
+
+.modal-dialog {
+    margin-top: 15px;
+}
+
+#modal-singUp .form-group {
+    margin-right: 5px;
+}
+
+#modal-singUp .group {
+    overflow-y: auto;
+}
+
+#modal-singUp input[type=checkbox]:checked,
+#modal-singUp input[type=checkbox]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+
+#modal-singUp input[type=checkbox]:checked + label,
+#modal-singUp input[type=checkbox]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+#modal-singUp input[type=checkbox]:checked + label:before,
+#modal-singUp input[type=checkbox]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #909090;
+    background-color: #ffffff;
+}
+
+#modal-singUp input[type=checkbox]:checked + label:before,
+#modal-singUp input[type=checkbox]:not(:checked) + label:before {
+    border-radius: 2px;
+}
+
+#modal-singUp input[type=checkbox]:checked + label:after,
+#modal-singUp input[type=checkbox]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+#modal-singUp input[type=checkbox]:checked + label:after,
+#modal-singUp input[type=checkbox]:not(:checked) + label:after {
+    left: 2px;
+    top: 2px;
+    width: 15px;
+    height: 8px;
+    border-radius: 1px;
+    border-left: 3px solid #1bbc9b;
+    border-bottom: 3px solid #1bbc9b;
+    transform: rotate(-45deg);
+}
+
+#modal-singUp input[type=checkbox]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+#modal-singUp input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+#modal-singUp button:first-child {
+    background-color: #297fb8;
+    color: #ffffff;
+}
+
+#modal-singUp a {
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+#modal-singUp a span {
+    color: #000000;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#modal-singUp ::-webkit-input-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-singUp ::-moz-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-singUp :-ms-input-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-singUp ::-ms-input-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-singUp ::placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-password a,
+#modal-login a {
+    text-decoration: none;
+    color: #000000;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+#modal-password ::-webkit-input-placeholder, #modal-login ::-webkit-input-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-password ::-moz-placeholder, #modal-login ::-moz-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-password :-ms-input-placeholder, #modal-login :-ms-input-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-password ::-ms-input-placeholder, #modal-login ::-ms-input-placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-password ::placeholder,
+#modal-login ::placeholder {
+    color: #dbdbdb;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.09px;
+}
+
+#modal-password button:first-child,
+#modal-login button:first-child {
+    background-color: #297fb8;
+    color: #ffffff;
+}
+
+#modal-password button:last-child,
+#modal-login button:last-child {
+    background-color: #ffffff;
+    border: 1px solid #297fb8;
+    color: #2b2b2b;
+}
+
+.modal-body {
+    padding: 60px;
+}
+
+.modal-body label {
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+}
+
+.modal-body .m-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.modal-body .m-header span {
+    font-size: 70px;
+    color: #494949;
+    font-weight: 200;
+}
+
+.modal-body .button {
+    margin-top: 25px;
+}
+
+.modal-body button {
+    font-family: ". SF Compact Rounded";
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.31px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.modal-body input {
+    padding: 25px 15px;
+    border-radius: 10px;
+}
+
+.modal-body .modal-title {
+    color: #297fb8;
+    font-family: ". SF Compact Rounded";
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -1.09px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+}
+
+.head .head-name::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #ffffff;
+    width: 68px;
+    left: -15%;
+    top: 55%;
+}
+
+main {
+    padding-bottom: 30px;
+}
+
+main h4.name {
+    color: #2b2b2b;
+    font-family: ". SF Compact Rounded";
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: -1.09px;
+    margin-bottom: 25px;
+}
+
+main .column {
+    border: 1px solid rgba(232, 232, 232, 0.95);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+
+main .column:hover {
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+}
+
+.offer {
+    color: #fffafc !important;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.27px;
+    background-color: #1bbc9b;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.offer i {
+    margin-right: 5px;
+}
+
+.baner {
+    background-color: #297fb8;
+    padding: 120px 0px 65px 0;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.baner h1 {
+    color: #ffffff;
+    font-family: ". SF Compact Rounded";
+    font-size: 75px;
+    font-weight: 400;
+    letter-spacing: -2.11px;
+}
+
+.baner p {
+    color: #ffffff;
+    font-family: ". SF Compact Rounded";
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.baner img {
+    width: 100%;
+}
+
+.card-body span.date {
+    color: #cccccc;
+    font-family: ". SF Compact Rounded";
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-body a .card-title {
+    color: #1f1f1f;
+    font-family: ". SF Compact Rounded";
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+}
+
+.card-body .card-text {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-body .like {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card-body .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.card-body .buttons button {
+    padding: 5px 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.card-body .buttons button:first-child {
+    background-color: #297fb8;
+    border: none;
+    color: white;
+}
+
+.card-body .buttons button:last-child {
+    background-color: #f2f2f2;
+    border: none;
+    color: white;
+}
+
+.card-body .buttons button:last-child.active {
+    background-color: #1bbc9b;
+}
+
+header img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+header .top-header {
+    background-color: #297fb8;
+    padding: 10px 0px;
+    display: flex;
+}
+
+header .top-header .right {
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .top-header .right li {
+    margin-right: 30px;
+}
+
+header .top-header .left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header .top-header ul {
+    display: flex;
+}
+
+header .top-header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: ". SF Compact Rounded";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.33px;
+}
+
+header .top-header ul li a i {
+    color: #ffffffff;
+    font-size: 18px;
+}
+
+header .top-header .networks i {
+    color: #297fb8;
+    background-color: white;
+    font-size: 18px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+header .main-menu ul.sub-menu {
+    display: none;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    right: 170px;
+    top: 70%;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 15px 0;
+}
+
+header .main-menu ul.sub-menu li {
+    padding: 0px 15px;
+}
+
+header .main-menu ul.sub-menu li:hover {
+    cursor: pointer;
+}
+
+header .main-menu ul.sub-menu li a {
+    color: #333333;
+    font-family: ". SF Compact Rounded";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+}
+
+header .main-menu .singUp {
+    background-color: #1bbc9b;
+    border: none;
+    padding: 6px 25px;
+    border-radius: 8px;
+    color: white;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .main-menu .login {
+    background-color: white;
+    border: 2px solid #1bbc9b;
+    padding: 5px 25px;
+    border-radius: 8px;
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+header .main-menu .logo-img:last-child {
+    margin-bottom: 14px;
+}
+
+header .main-menu .logo-img:last-child img {
+    width: 135px;
+}
+
+header .main-menu .logo-img img {
+    height: 43px;
+    width: 153px;
+}
+
+header .main-menu .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header .main-menu .menu i {
+    margin-right: 10px;
+}
+
+header .main-menu ul {
+    align-items: center;
+    display: flex;
+}
+
+header .main-menu ul li {
+    padding: 35px 20px 35px 0px;
+    align-items: center;
+}
+
+header .main-menu ul li:last-child {
+    padding-right: 0;
+}
+
+header .main-menu ul li .fa-user-circle {
+    color: #1bbc9b;
+    font-size: 21px;
+}
+
+header .main-menu ul li .fa-clipboard-list {
+    color: white;
+}
+
+header .main-menu ul li a {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media (min-width: 1200px) {
+    header li.parent {
+        margin-left: 30px;
+    }
+}
+
+footer {
+    background-color: #f6f6f6;
+    padding: 30px 0px;
+}
+
+footer img {
+    height: 17px !important;
+    width: 17px !important;
+}
+
+footer .footer {
+    border-bottom: 1px solid #dddddd;
+}
+
+footer .footer .logo img {
+    height: 40px !important;
+    width: 190px !important;
+}
+
+footer .footer .logo,
+footer .footer .menu {
+    display: flex;
+    align-items: center;
+}
+
+footer .footer .menu {
+    justify-content: flex-end;
+}
+
+footer .footer ul {
+    display: flex;
+}
+
+footer .footer ul li {
+    padding: 45px 20px 20px 0px;
+}
+
+footer .footer ul li:last-child {
+    padding-right: 0;
+}
+
+footer .footer ul li a {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .footer ul .networks li {
+    padding: 0;
+    margin-right: 7px;
+}
+
+footer .footer ul .networks li i {
+    color: white;
+    background-color: #a8a8a8;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+footer .bottom-fotter {
+    margin-top: 25px;
+}
+
+footer .bottom-fotter img {
+    margin-right: 7px;
+}
+
+footer .bottom-fotter .logo img {
+    height: 32px !important;
+    width: 120px !important;
+}
+
+footer .bottom-fotter .right,
+footer .bottom-fotter .left {
+    display: flex;
+    align-items: flex-end;
+}
+
+footer .bottom-fotter .right span {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 10px;
+    font-weight: 400;
+}
+
+footer .bottom-fotter .left {
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .bottom-fotter .left span {
+    color: #666666;
+    font-family: ". SF Compact Rounded";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.24px;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+footer .bottom-fotter .left span i {
+    color: #297fb8;
+    margin: 5px;
+}
+
+.active {
+    display: block;
+}
+
+@media (min-width: 993px) {
+    .head:first-child {
+        margin-left: 95px;
+    }
+
+    .modal-dialog {
+        max-width: 750px;
+      }
+      #modal-singUp .modal-dialog, #modal-login .modal-dialog {
+        max-width: 590px;
+    }
+}
+
+@media (max-width: 992px) {
+    .modal-title {
+        font-size: 35px !important;
+    }
+
+    .modal-body {
+        padding: 30px;
+    }
+
+    .modal-body .button {
+        margin-bottom: 15px;
+    }
+
+    .modal-content .close {
+        right: -10px;
+    }
+
+    header .top-header .right,
+    header .top-header .left {
+        justify-content: center;
+    }
+
+    header .logo-img:last-child img {
+        width: 100px !important;
+    }
+
+    header .logo-img img {
+        width: 110px !important;
+    }
+
+    header .main-menu ul li {
+        padding: 15px;
+        text-align: center;
+    }
+
+    header .main-menu .login,
+    header .main-menu .singUp {
+        padding: 5px 10px;
+    }
+
+    header .main-menu .offer {
+        padding: 6px;
+    }
+
+    header .mobil-button {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    header .mobil-button button {
+        background-color: white;
+        border: none;
+        color: #297fb8;
+    }
+
+    header #mainMenu {
+        background-color: white;
+        top: 0;
+        height: 100%;
+        width: 100% !important;
+        justify-content: center;
+        align-items: center;
+        display: none;
+    }
+
+    header #mainMenu ul {
+        display: block;
+    }
+
+    header #mainMenu ul li {
+        padding: 5px;
+    }
+
+    header #mainMenu .sub-menu {
+        display: none;
+        position: static;
+    }
+
+    main h4.name {
+        font-size: 40px;
+    }
+
+    main .head {
+        justify-content: center;
+    }
+
+    main .head .head-name::before {
+        content: none;
+    }
+
+    main .baner {
+        padding: 40px 0;
+        text-align: center;
+    }
+
+    main .baner img {
+        margin-top: 10px;
+    }
+
+    main .baner h1 {
+        font-size: 60px;
+    }
+
+    footer {
+        padding-top: 15px;
+    }
+
+    footer .footer .logo {
+        justify-content: center;
+    }
+
+    footer .footer .menu {
+        justify-content: center;
+    }
+
+    footer .footer .menu ul {
+        display: block;
+    }
+
+    footer .footer .menu ul li {
+        padding: 5px;
+        text-align: center;
+    }
+
+    footer .footer .menu .networks {
+        display: flex;
+    }
+
+    footer .bottom-fotter {
+        text-align: center;
+    }
+}
+
+.show_hide_password
+{
+    float: right;
+    top: 56px;
+    position: absolute;
+    right: 8px;
+    cursor: pointer;
+}
+

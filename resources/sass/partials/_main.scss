@@ -1,0 +1,48 @@
+#main {
+    iframe {
+        width: 77%;
+        height: 128%;
+        margin: 25px;
+        border-radius: 20px;
+        border: none;
+        video {
+                    margin: 0
+                }
+    }
+    .head:first-child {
+        margin-left: 0px;
+    }
+    a.offer {
+        text-decoration: none;
+        padding: 15px 25px;
+        img {
+            width: 22px;
+            height: 22px;
+            margin-right: 5px;
+        }
+    }
+
+    .head-main {
+        h4  {
+            font-family: $fontFamilyRounded;
+            font-weight: 400;
+            text-decoration: none;
+            color:white;
+        }
+    }
+    .all {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        span {
+            color: #666666;
+            font-family: $fontFamilyRounded;
+            font-size: 14px;
+            font-weight: 400;
+            text-decoration: none;
+            i {
+                margin-left:5px;
+            }
+        }
+    }
+}

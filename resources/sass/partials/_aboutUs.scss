@@ -1,0 +1,67 @@
+#aboutUs {
+  img {
+    width: 100%;
+  }
+  span {
+    color: #666666;
+    font-family: $fontFamilyRounded;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.75px;
+
+    .fa-download {
+      color: rgba(20, 142, 117, 0.75);
+    }
+  }
+
+  .info {
+    h5 {
+      color: #2b2b2b;
+      font-family: $fontFamilyRounded;
+      font-size: 52px;
+      font-weight: 400;
+      letter-spacing: -1.35px;
+      margin-bottom: 20px;
+    }
+    .cards {
+      margin-bottom: 95px;
+
+      p {
+        color: #666666;
+        font-family: $fontFamilyRounded;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 40px;
+        letter-spacing: 1.75px;
+      }
+    }
+    padding: 50px 0px;
+    @media (min-width: 992px) {
+      .left {
+        // float: left;
+        width: 50%;
+        margin-right: 125px;
+      }
+      .right {
+        // float: right;
+        width: 50%;
+        margin-left: 125px;
+      }
+    }
+    .left {
+      float: left;
+      width: 50%;
+      // margin-right: 125px;
+    }
+    .right {
+      float: right;
+      width: 50%;
+      // margin-left: 125px;
+    }
+  }
+  @media (max-width: 992px) {
+    h5 {
+      font-size: 30px !important;
+    }
+  }
+}
